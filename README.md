@@ -5,8 +5,9 @@ HOW TO USE:
 
 syntax: python3 [filename] -[options] [raw file / directory] [conversion format]
 
-Example:python3 image_con.py -dir images/ png
-Example: python3 image_con.py -f images/pokemon.jpg tif
+Example:python3 image_converter.py -dir images/ png
+
+Example: python3 image_converter.py -f images/pokemon.jpg tif
 
 OPTIONS:
 --dir / -d  convert all image files in that directory to given format.
